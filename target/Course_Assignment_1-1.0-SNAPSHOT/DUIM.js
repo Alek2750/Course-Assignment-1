@@ -3,11 +3,11 @@ var girls = ["Janne", "hanne", "Sanne"];
 
 function arrayToString(arr) {
     var array1 = arr;
-    var æble = "";
+    var ArrAsStr = "";
     for (let i = 0; i < array1.length; i++) {
-        æble = æble.concat(array1[i] + "<br>");
+        ArrAsStr = ArrAsStr.concat(array1[i] + "<br>");
     }
-    return æble;
+    return ArrAsStr;
 }
 var sorted = false;
 
