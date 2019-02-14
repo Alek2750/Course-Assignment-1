@@ -1,41 +1,51 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="calc.css">
-        <title>TODO supply a title</title>
+        <title>Simple calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="stylesheet" type="text/css" href="calc.css">
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="page1.html">Page1 - Calculator</a></li>
+                <li><a href="#">Page 2 Using the simple Calculator API</a></li>
+                <li><a href="page3_DUIM.html">Page3 - Dynamic UI manipulation</a></li>
+                <li><a href="#">Page4 - Dynamic UI manipulation with data obtained via fetch</a></li>
+            </ul>
+        </nav>
+        
+    <center><h1>Page 1 - Calculator</h1></center>
         <div id="container">
       <div id="display" class="t4"></div>
       <div id="buttons">
-        <div class="t1">7</div>
-        <div class="t1">8</div>
-        <div class="t1">9</div>
-        <div class="t1">/</div>
+        <div class="t1" onclick="pushButton(this);">7</div>
+        <div class="t1" onclick="pushButton(this);">8</div>
+        <div class="t1" onclick="pushButton(this);">9</div>
+        <div class="t1" onclick="pushButton(this);">/</div>
 
-        <div class="t1">4</div>
-        <div class="t1">5</div>
-        <div class="t1">6</div>
-        <div class="t1">*</div>
+        <div class="t1" onclick="pushButton(this);">4</div>
+        <div class="t1" onclick="pushButton(this);">5</div>
+        <div class="t1" onclick="pushButton(this);">6</div>
+        <div class="t1" onclick="pushButton(this);">*</div>
 
-        <div class="t1">1</div>
-        <div class="t1">2</div>
-        <div class="t1">3</div>
-        <div class="t1">-</div>
+        <div class="t1" onclick="pushButton(this);">1</div>
+        <div class="t1" onclick="pushButton(this);">2</div>
+        <div class="t1" onclick="pushButton(this);">3</div>
+        <div class="t1" onclick="pushButton(this);">-</div>
 
-        <div class="t1">0</div>
-        <div class="t1">.</div>
-        <div class="t1">+</div>
-        <div id="calculate" class="t1">=</div>
+        <div class="t1" onclick="pushButton(this);">0</div>
+        <div class="t1" onclick="pushButton(this);">.</div>
+        <div class="t1" onclick="pushButton(this);">+</div>
+        <div id="calculate" class="t1" onclick="pushButton(this);">=</div>
       </div>
     </div>
-
+        <br>
+    <center><a href="index.html">Back to Main Page</a></center>
+        
+        <script src="calc1.js"></script>
     </body>
 </html>

@@ -16,8 +16,7 @@ document.getElementById('girls').innerHTML = arrayToString(girls);
 document.getElementById('all').innerHTML = arrayToString(boys.concat(girls));
 
 document.getElementById("removeboy").addEventListener("click", removeBoy);
-function removeBoy(event) {
-    event.preventDefault();
+function removeBoy() {
     if (document.getElementById("first").checked == true) {
         boys.shift();
     }
@@ -26,12 +25,12 @@ function removeBoy(event) {
     }
     document.getElementById("boys").innerHTML = arrayToString(boys);
     document.getElementById("all").innerHTML = arrayToString(boys.concat(girls));
+    //Hvis arrays ikke bliver sat her igen, bliver arrayToString ikke opdateret
 }
 
 document.getElementById("addboy").addEventListener("click", addBoy);
 
-function addBoy(event) {
-    event.preventDefault();
+function addBoy() {
     var name = document.getElementById("newboy").value;
     boys.push(name);
     document.getElementById("newboy").value = "";
@@ -51,8 +50,7 @@ function addGirl(event) {
 }
 
 document.getElementById("removegirl").addEventListener("click", removeGirl);
-function removeGirl(event) {
-    event.preventDefault();
+function removeGirl() {
     if (document.getElementById("first").checked == true) {
         girls.shift();
     }
@@ -99,10 +97,3 @@ function sortAll(event) {
         sorted = false;
     }
 }
-
-/*document.getElementById('boys').innerHTML=boys;
-function showB(){
-    for (let i = 0; i < boys.length; i++) {
-        document.writeln(boys[i]);        
-    }
-}*/
