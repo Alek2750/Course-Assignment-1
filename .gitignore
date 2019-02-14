@@ -34,3 +34,8 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+.nb-gradle/
