@@ -17,26 +17,26 @@ public class WebCalculatorTest {
   public WebCalculatorTest() {
   }
   
-//  @Test
-//  public void testWebAdd() throws IOException{
-//    String res = client.makeHttpRequest("?operation=add&n1=2&n2=3");
-//    assertEquals("Result of: 2+3= 5", res);
-//    assert(true);
-//  }
-//  
-//  @Test
-//  public void testWebSub() throws IOException{
-//    String res = client.makeHttpRequest("?operation=sub&n1=6&n2=3");
-//    assertEquals("Result of: 6-3= 3", res);
-//    assert(true);
-//  }
-//  
-//  @Test
-//  public void testWebMul() throws IOException{
-//    String res = client.makeHttpRequest("?operation=mul&n1=6&n2=6");
-//    assertEquals("Result of: 6*6= 36", res);
-//    assert(true);
-//  }
+  @Test
+  public void testWebAdd() throws IOException{
+    String res = client.makeHttpRequest("?operation=add&n1=2&n2=3");
+    assertEquals("Result of: 2+3= 5", res);
+    assert(true);
+  }
+  
+  @Test
+  public void testWebSub() throws IOException{
+    String res = client.makeHttpRequest("?operation=sub&n1=6&n2=3");
+    assertEquals("Result of: 6-3= 3", res);
+    assert(true);
+  }
+  
+  @Test
+  public void testWebMul() throws IOException{
+    String res = client.makeHttpRequest("?operation=mul&n1=6&n2=6");
+    assertEquals("Result of: 6*6= 36", res);
+    assert(true);
+  }
   
   
 }
