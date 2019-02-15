@@ -5,6 +5,12 @@
  */
 
 var myform = document.getElementById("userinfo");
+var myBtn = document.getElementById("myBtn");
+
+
+myBtn.addEventListener("click", (e) => {
+    console.log("det fra min btn")
+})
 
 myform.addEventListener("submit", event => {
     event.preventDefault();
