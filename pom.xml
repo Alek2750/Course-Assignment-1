@@ -116,7 +116,7 @@
     </build>
     <profiles>
         <profile>
-            <id>test</id>
+            <id>deployremote</id>
             <build>
                 <plugins>
                     <plugin>  
