@@ -1,2 +1,2 @@
-calculator\CalculatorTest.class
-integrationtests\WebCalculatorTest.class
+integrationtests/WebCalculatorTest.class
+calculator/CalculatorTest.class

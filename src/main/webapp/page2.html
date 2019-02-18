@@ -21,7 +21,40 @@ and open the template in the editor.
                 <li><a href="page4.html">Page4 - Dynamic UI manipulation with data obtained via fetch</a></li>
             </ul>
         </nav>
-        
-        <div>TODO write content</div>
+
+        <div class="container">
+            <h1>Calculator Client</h1>
+            <div>
+                <form id="mycalculator">
+                    <input type="number" id="n1"/>
+                    <br>
+                    <input type="number" id="n2"/>
+                    <br>
+                    <button  type="submit"  value="add">+</button>
+                    <button  type="submit"  value="sub">-</button>
+                    <button  type=submit  value="mul">x</button>
+                    <button   type="submit" value="div">/</button>
+                </form>
+            </div>
+            <br>
+            <br>
+            <input type="text" id="result" readonly/>
+            <br>
+            <button onclick="clearAll();" id="clear">Clear</button>
+
+
+        </div>
+        <script src="p2.js">
+
+
+        </script>
+        <script>
+            function clearAll(){
+                document.getElementById("n1").value = "";
+                document.getElementById("n2").value = "";
+                document.getElementById("result").value = "";
+            }
+            
+        </script>
     </body>
 </html>
