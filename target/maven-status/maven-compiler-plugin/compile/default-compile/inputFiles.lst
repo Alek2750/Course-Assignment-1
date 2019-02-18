@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /Users/dmt1/Desktop/3.sem_Maven/Course-Assignment-1/src/main/java/webcalculator/CalculatorServlet.java
 /Users/dmt1/Desktop/3.sem_Maven/Course-Assignment-1/src/main/java/httpclient/HttpClient.java
 /Users/dmt1/Desktop/3.sem_Maven/Course-Assignment-1/src/main/java/calculator/Calculator.java
 /Users/dmt1/Desktop/3.sem_Maven/Course-Assignment-1/src/main/java/calculator/ICalculator.java
+=======
+C:\Users\ale12\OneDrive\Dokumenter\NetBeansProjects\Course-Assignment-1\src\main\java\httpclient\HttpClient.java
+C:\Users\ale12\OneDrive\Dokumenter\NetBeansProjects\Course-Assignment-1\src\main\java\calculator\Calculator.java
+C:\Users\ale12\OneDrive\Dokumenter\NetBeansProjects\Course-Assignment-1\src\main\java\calculator\ICalculator.java
+C:\Users\ale12\OneDrive\Dokumenter\NetBeansProjects\Course-Assignment-1\src\main\java\webcalculator\CalculatorServlet.java
+>>>>>>> eb104d69955fa6780a9c6ac3f755997ff4803e0b

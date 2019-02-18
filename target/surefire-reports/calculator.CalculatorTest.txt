@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: calculator.CalculatorTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+=======
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+>>>>>>> eb104d69955fa6780a9c6ac3f755997ff4803e0b
