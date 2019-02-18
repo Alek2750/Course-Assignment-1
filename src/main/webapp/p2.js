@@ -10,8 +10,8 @@ myCalForm.addEventListener("click", event => {
     event.preventDefault();
     var n1 = event.currentTarget.n1.value;
     var n2 = event.currentTarget.n2.value;
-        
-    cal(n1, n2, event.target.value);
+        var op = event.target.value;
+    cal(n1, n2, op);
     
     //document.getElementById("add").addEventListener("click", cal(n1, n2, "add"));
     //document.getElementById("sub").addEventListener("click", cal(n1, n2, "sub"));
